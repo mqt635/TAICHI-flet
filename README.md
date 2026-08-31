@@ -1,102 +1,157 @@
 <p align="center">
   <a href="https://github.com/moshstudio/TAICHI-flet">
-    <img width="200" height="200" src="https://github.com/moshstudio/TAICHI-flet/blob/main/taiji.png" alt="TAICHI-flet">
+    <img width="160" height="160" src="./assets/imgs/taichi.png" alt="太极">
   </a>
 </p>
 
-<h1 align="center">TAICHI-flet</h1>
+<h1 align="center">太极 TAICHI</h1>
 
 <p align="center">
-  <a href="#下载">
-    <img src="https://img.shields.io/github/downloads/moshstudio/TAICHI-flet/total?style=flat-square" alt="forks">
-  </a>
+  Windows 桌面多功能娱乐与创作应用
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/stars/moshstudio/TAICHI-flet?style=flat-square" alt="stars">
   <img src="https://img.shields.io/github/forks/moshstudio/TAICHI-flet?style=flat-square" alt="forks">
 </p>
 
 ---
 
+基于 [Flet](https://flet.dev/) 的 Windows 桌面应用。壁纸、音乐、小说、漫画、影视、网盘资源一站查找；论道提供对话、绘画、视频、口播与桌面自动化等 AI 能力。
 
- 基于flet的一款windows桌面应用，实现了浏览图片、音乐、小说、各种资源的功能，还有gpt、ai绘画等高级功能。
+界面简洁，功能集中。开源仓库已不再同步源码，**安装包持续更新**。
 
- 特点：多功能娱乐软件，界面美观、简洁。
- 
- （开源代码已不更新，软件包持续更新中）
- 
-会持续更新
+首次打开会有简短引导，可从主导航快速了解各模块。
 
-## 最新版本(2026年8月31日)
+## 下载
 
-## 页面全新升级，欢迎使用
+**最新版本 3.5.11**（2026 年 8 月 31 日）
 
-为保证太极正常使用，请【安装3.5.10版本】
+为保证正常使用，请安装最新版。
 
-电脑版《太极》3.5.10版本下载地址
-
-[https://moshangwangluo.com](https://moshangwangluo.com)
-
+电脑版下载：[https://moshangwangluo.com](https://moshangwangluo.com)
 
 ---
 
 ## 功能介绍
 
-1. 首页
+### 1. 首页
+
+日期天气、热搜榜与公告入口。右上角可切换主题、打开全局设置；点击时间可选择默认壁纸。
 
 ![首页](./docs/主页.png)
 
-右上角可切换主题、进行全局个性化设置、显示热搜榜，点击左上角时间可使用默认壁纸。
+### 2. 观山
 
-2. 观山——性感写真、清纯图片、风景壁纸、摄影参考一网打尽
-   
+浏览与下载高清壁纸、写真与摄影参考。可切换图源、左右翻看，下载到本地或设为壁纸，并调节背景模糊。开通 VIP 可解锁更多图源。
+
 ![观山](./docs/观山.png)
 
-右下角可选择下载、设为壁纸、调整壁纸模糊度等。
+### 3. 听雨
 
-3. 听雨——全网音乐试听下载，自动搜索音乐源，导入歌单
+多源搜歌、在线试听与下载。支持歌单、收藏、本地音乐、桌面歌词，以及导入歌单。开通 VIP 可解锁更多音乐源。
 
 ![听雨](./docs/听雨.png)
 
-4. 修仙—-免费阅读全网小说搜索、支持听书功能
+### 4. 修仙
+
+搜索并阅读全网小说，支持书架收藏与云同步、沉浸阅读和听书。换设备也能接着看。
 
 ![修仙](./docs/修仙.png)
 
-5. 抚琴——云盘资源、软件资源搜索
+### 5. 览竹
 
-![抚琴](./docs/抚琴.png)
-
-6. 小站——资源、影视查找
-
-![小站](./docs/小站.png)
-
-7. 览竹——动漫搜索、观看
+搜索、阅读漫画，支持收藏，方便下次继续看。
 
 ![览竹](./docs/览竹.png)
 
-8. 论道——AI功能(高级功能)
+### 6. 观影
 
-### AI对话，支持多agent调用
-![论道](./docs/论道1.png)
+检索影视资源，切换片源在线观看，支持收藏、观看历史与进度记忆。开通 VIP 可解锁更多片源。
 
-### AI绘画，nano banana/2/pro，快速生图
-![论道2](./docs/论道2.png)
+![观影](./docs/观影.png)
 
-### AI视频，sora2、veo3、grok视频生成
-![论道3](./docs/论道3.png)
+### 7. 搜盘
 
-### AI 漫创，一键创作AI漫画
-![论道4](./docs/论道4.png)
+按关键词搜索网盘分享与站源资源，复制链接或打开详情。开通 VIP 可解锁更多搜盘源。
 
-### windows自动化，让AI帮你智能操作电脑
-![论道5](./docs/论道5.png)
+![搜盘](./docs/搜盘.png)
 
-9. 宝库——几十种实用工具
+### 8. 论道
+
+AI 能力中心。登录后按积分使用；开通 VIP 另赠积分，并解锁更多资源源与工具。
+
+#### AI 对话
+
+问答与写作。助手可读写工作区、调用工具、记住偏好；支持对话 / 助手模式。
+
+![论道-对话](./docs/论道-对话.png)
+
+#### AI 会议室
+
+创建房间，邀请多个模型围桌讨论同一话题。
+
+![论道-会议室](./docs/论道-会议室.png)
+
+#### AI 绘画
+
+文字描述生成图片，支持参考图。模型含 Nano Banana、GPT Image 等（以软件内列表为准）。
+
+![论道-绘画](./docs/论道-绘画.png)
+
+#### AI 电商图
+
+商品图辅助：分析商品 → 生成提示词 → 出图，适合电商场景。
+
+![论道-电商图](./docs/论道-电商图.png)
+
+#### 图片处理
+
+证件照、智能抠图、上色、动漫化、扩图、局部重绘、裁剪与调色等。
+
+![论道-图片处理](./docs/论道-图片处理.png)
+
+#### AI 视频
+
+文生视频，支持 Veo、Grok 等模型，可带参考图或首尾帧。
+
+![论道-视频](./docs/论道-视频.png)
+
+#### AI 漫创
+
+一键辅助创作 AI 漫画（分镜与成稿）。
+
+![论道-漫创](./docs/论道-漫创.png)
+
+#### Windows 自动化
+
+用自然语言描述任务，让 AI 协助操作电脑。
+
+![论道-自动化](./docs/论道-自动化.png)
+
+### 9. 宝库
+
+几十种实用工具，分类包括：
+
+- **办公影音**：PDF 转 Word、OCR、抠图、图片放大/清晰度、视频解析、TTS、二维码、待办等
+- **桌面组件**：桌面时钟、闹钟、剪贴板、系统信息、太极小智、桌面 AI 助手
+- **AI**：PPT 生成、起名、律师咨询等
+- **小游戏**：扫雷、数独、拼图、记忆矩阵等
+
+部分工具需 VIP。
 
 ![宝库](./docs/宝库.png)
 
-## 关注公众号了解更多功能
+### 10. 我的
 
-![image](https://github.com/moshstudio/TAICHI-flet/assets/38805177/861e963c-4374-4232-921a-7d182c22729d)
+注册登录、开通 VIP、购买积分、查看积分流水与消耗说明、下载管理、推广中心，以及账号与设备同步。
 
-## Star历史
+开通 VIP 可解锁更多图片 / 音乐 / 小说 / 漫画 / 影视 / 网盘来源（90+ 专享源），最多 3 台设备，记录与偏好随账号同步。
 
-![Star History Chart](https://api.star-history.com/svg?repos=moshstudio/TAICHI-flet&type=Date)
+![我的](./docs/我的.png)
+
+---
+
+## 关注公众号了解更多
+
+![公众号](https://github.com/moshstudio/TAICHI-flet/assets/38805177/861e963c-4374-4232-921a-7d182c22729d)
