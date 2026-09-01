@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="https://github.com/moshstudio/TAICHI-flet">
+  <!-- <a href="https://github.com/moshstudio/TAICHI-flet">
     <img width="160" height="160" src="./assets/imgs/taichi.png" alt="太极">
-  </a>
+  </a> -->
 </p>
 
 <h1 align="center">太极 TAICHI</h1>
